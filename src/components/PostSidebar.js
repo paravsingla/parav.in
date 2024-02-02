@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 
 import { getFormattedDate, slugify } from '../utils/helpers'
-import me from '../../content/images/parav-selfie.jpeg'
+import me from '../../content/images/parav.jpg'
 
 export const PostSidebar = ({
   tags = [],
