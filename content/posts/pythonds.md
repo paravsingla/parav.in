@@ -14,12 +14,10 @@ shortTitle: Linked List in Python
 comments_off: false
 ---
 
-The Python system library's inbuilt data types are all you need in most cases.
-However, there are some instances when you might want to extend one of them or even better -
-create one yourself.
-
 In this post, we are going to learn how to create our own data structures
-from scratch.
+from scratch using the example of a [Linked List](https://en.wikipedia.org/wiki/Linked_list).
+
+We'll also use the [Python Data Model](https://docs.python.org/3/reference/datamodel.html) to make sure our implementation is consistent with Python's inbuilt data structures. 
 
 #### PREREQUISITES
 - Familiarity with Python
@@ -27,14 +25,15 @@ from scratch.
 
 #### Goals
 - Implement a linked list
+- Learn more about the Python Data Model
 
 #### Contents
 
 ## Linked Lists
 
-There are very few occasions when you might want to use a linked list instead of Python's own [list]() data structure. However, this simple data structure makes for a great starting point for us.
+There are very few occasions when you might want to implement a linked list instead of Python's own [list](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists) data structure. However, this simple data structure makes for a great starting point.
 
-A linked list is quite possibly, the simplest example of a [dynamic data structure](). Linked lists are composed of a chain of nodes liked together by pointers.
+A linked list is quite possibly, the simplest example of a [dynamic data structure](https://computer.howstuffworks.com/c27.htm). Linked lists are composed of a chain of nodes liked together by pointers.
 
 ### The `Node` Class
 
@@ -42,9 +41,9 @@ A basic **node** in a linked list is a composite data structure containing two p
 
 ```py
 class Node:
-  def __init__(self, input_data):
+  def __init__(self, input_data, next_node=None):
     self.data = input_data
-    self.next = None
+    self.next = next_node
 ```
 To create a `Node` object:
 
@@ -54,27 +53,27 @@ To create a `Node` object:
 90
 ```
 
-I am going to continue with this bare-bones `Node` class but if you want, you can add getters and setters to the class like below.
+If you are coming from other languages, you may be tempted to add getters and setters to the class like below.
 
 ```python
 class Node:
-    def __init__(self, input_data):
+    def __init__(self, input_data, next_node=None):
         self.data = input_data
-        self.next = None
+        self.next = next_node
 
-    def getData(self):
+    def get_data(self):
         return self.data
 
-    def getNext(self):
+    def get_next(self):
         return self.next
 
-    def setData(self,new_data):
+    def set_data(self,new_data):
         self.data = new_data
 
-    def setNext(self,new_next):
+    def set_next(self,new_next):
         self.next = new_next
 ```
-> This usually considered a good practice, but in Python, its utility is debatable.
+> This usually considered a good practice in other languages, but in Python, this would actually be considered [non-pythonic](https://stackoverflow.com/questions/25011078/what-does-pythonic-mean).
 
 A linked list can be visualized as a series of linked boxes, as seen in the below picture:
 
@@ -88,10 +87,10 @@ graph LR
 9 --> 11(5678)
 11 --> ..
 ```
-> While we often represent linked lists as a neat, orderly structures, but our list can actually be scattered throughout the program's memory.
+> While we often represent linked lists as a neat, orderly structures, our list can actually be scattered throughout the program's memory.
 
 Because they include pointers as well as values, linked lists typically require more
-memory to store the same items than arrays. Instead of the absolute position, emphasis in a linked list is generally on the relative position of each element.
+memory to store the same items than C-style arrays. Instead of the absolute position, emphasis in a linked list is generally on the relative position of each element.
 
 Now, let's create the `LinkedList` class.
 
@@ -117,25 +116,22 @@ def add(self, data):
 ```
 Notice that we are adding new members at the front of the linked list. First, we create a new `Node` object with data provided by the user and `next` is the `head` of our linked list. The newly added member now becomes our new `head`.
 
+
 ```python
->>> mylist = LinkedList()
->>> mylist.add(42)
->>> mylist.add(53)
->>> mylist.add(67)
->>> mylist.add(89)
->>> mylist.add(90)
->>> mylist.head.data
+>>> lst = LinkedList()
+>>> lst.add(42)
+>>> lst.add(53)
+>>> lst.add(67)
+>>> lst.add(89)
+>>> lst.add(90)
+>>> lst.head.data
 90
 ```
 
-```mermaid
-graph LR
-1(create)-->2(graph)
-```
 
 The next methods that we will implement are based on the technique known as **linked list traversal**. We will visit each node in the linked list, starting from the head, using the references stored in the `next` variable of each node.
 
-Let's implement the `size` method using this technique.
+Let's implement the `__len__` method using this technique.
 
 ```python
 def size(self):

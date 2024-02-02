@@ -141,6 +141,10 @@ module.exports = {
             }
           },
           {
+            resolve: 'gatsby-remark-external-links',
+            options: {},
+          },
+          {
             resolve: 'gatsby-remark-prismjs',
             options: {
               classPrefix: 'language-',
