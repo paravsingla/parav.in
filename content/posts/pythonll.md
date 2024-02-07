@@ -2,7 +2,7 @@
 title: Linked List in Python
 date: "2024-01-01T22:12:03.284Z"
 description: "Implement a linked list"
-thumbnail: "../thumbnails/sorting.png"
+thumbnail: "../thumbnails/list.png"
 slug: "python-linked-list"
 categories:
   - Highlight
