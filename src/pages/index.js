@@ -35,14 +35,15 @@ export default function Index({ data }) {
               <Link to="https://www.youtube.com/@paravmusic">make
               music</Link> and{' '}
               <Link to="/blog">ramble</Link> about stuff. I like
-              programming, table tennis, reading, and gaming.
+              programming, table tennis, reading, and {' '}
+              <Link to="https://www.reddit.com/r/MartialMemes/">cultivation.
             </p>
             🍻
             <br />
             <br />
             <p>
               <small className="text-muted">
-                <em>Last updated: December 24th, 2023</em>
+                <em>Last updated: March 30th, 2024</em>
               </small>
             </p>
           </Hero>
@@ -62,13 +63,13 @@ export default function Index({ data }) {
 
       <div className="container">
         <section className="segment first">
-          <Heading title="Word Salad" slug="/blog" />
+          <Heading title="Blog" slug="/blog" />
 
           <Posts data={simplifiedLatest} newspaper />
         </section>
 
         <section className="segment large">
-          <Heading title="Useful Stuff"  slug="/blog"/>
+          <Heading title="Useful(?) Stuff"  slug="/blog"/>
 
           <div className="highlight-preview">
             {simplifiedHighlights.map((post) => {
