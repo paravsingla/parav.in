@@ -17,7 +17,7 @@ comments_off: false
 In this post, we are going to learn how to create our own data structures
 from scratch using the example of a [Linked List](https://en.wikipedia.org/wiki/Linked_list).
 
-We'll also use the [Python Data Model](https://docs.python.org/3/reference/datamodel.html) to make sure our implementation is consistent with Python's inbuilt data structures. 
+We'll also use the [Python Data Model](https://docs.python.org/3/reference/datamodel.html) to make sure our implementation is consistent with Python's in-built data structures. 
 
 #### PREREQUISITES
 - Familiarity with Python
@@ -31,7 +31,7 @@ We'll also use the [Python Data Model](https://docs.python.org/3/reference/datam
 
 There are very few occasions when you might want to implement a linked list instead of Python's own [list](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists) data structure. However, this simple data structure makes for a great starting point.
 
-A linked list is quite possibly, the simplest example of a [dynamic data structure](https://computer.howstuffworks.com/c27.htm). Linked lists are composed of a chain of nodes liked together by pointers.
+A linked list is quite possibly, the simplest example of a [dynamic data structure](https://computer.howstuffworks.com/c27.htm). Linked lists are composed of a chain of nodes linked together by pointers.
 
 ### The `Node` Class
 
