@@ -14,6 +14,8 @@ shortTitle: Trees in Python
 comments_off: false
 ---
 
+> Note: This is a draft, incomplete and in-progress.
+
 In this article, we are going to implement a [tree]() data structure in Python. We'll see how to use the [Python Data Model]() so that our implementation is consistent with other data structures in Python. 
 
 
