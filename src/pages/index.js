@@ -36,7 +36,7 @@ export default function Index({ data }) {
               music</Link> and{' '}
               <Link to="/blog">ramble</Link> about stuff. I like
               programming, table tennis, reading, and {' '}
-              <Link to="https://www.reddit.com/r/MartialMemes/">cultivation.
+              <Link to="https://www.reddit.com/r/MartialMemes/">cultivation</Link>.
             </p>
             🍻
             <br />
