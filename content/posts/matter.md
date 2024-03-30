@@ -12,9 +12,9 @@ comments_off: false
 
 It was October of 2014.
 
-I was in my first year in the university. Me and my friends were carrying this really heavy robot(if you could call it that) that we had created for competing in a competition called Robowars.
+I was in my first year in the university. Me and my friends were carrying this really heavy robot that we had created for competing in a competition called Robowars.
 
-We were spent - both mentally and physically. It was not the transportation of that chunk of metal that had exhausted us. We had just been through the first round of the competition. And I couldn't believe that we'd won. I couldn't will my legs to stop shaking.
+We were spent - both mentally and physically. It was not the transportation of that chunk of metal that had exhausted us; we had just been through the first round of the competition. And I couldn't believe that we'd won. I couldn't will my legs to stop shaking.
 
 We stopped in the middle of road that led to the hostels to catch our breath. I was barely functional. This was the most exhilarating experience I had ever had in my life. I was trying to calm myself down. It felt like my heart would explode. I was overcome by a plethora of emotions. We had just started this for fun. My friend, who was to control the bot, only had a couple of hours of practice.
 
@@ -28,11 +28,11 @@ But its hard to convince yourself that when there are hundreds of people chantin
 
 A guy approached us, asking for a picture. I looked at my friend. We thought he was from another college. We somehow managed to pose for a decent photograph. We talked for a while and then while leaving, we exchanged names. His sounded vaguely familiar, but I didn't care.
 
-A friend of mine who had seen us later told me that the guy was an alumnus, and he was the founder of a really cool startup.
+A friend of mine who had seen us later told me that the guy was an alumnus, and he was the founder of a really cool robotics startup. But we had been through such an exhilarating experience that neither of us had the tact to make a connection.
 
-It is 2018 now. Almost four years have passed since the day, but I remember it like it was yesterday. At some point between now and then, I abandoned the aforementioned technique to calm myself down. Because the truth is, while nobody did remember how bad I sucked (except my friends), it has been a few years and it still matters.
+Years have passed since the day, but I remember it like it was yesterday. At some point between now and then, I abandoned the aforementioned technique to calm myself down. Because the truth is, while nobody did remember how bad I sucked (except my friends), it has been a few years and it still matters.
 
-It mattered to me then, and it matters to me now. And it matters not because I spent months working on that robot, or because it was the first time I had experienced something like it, though these are perfectly valid reasons. It matters because even though now I live in a city with a population of 12 million, the corporation I work for employs 250,000 people, and I have more than 9 likes on my facebook profile picture, I'm still that kid.
+It mattered to me then, and it matters to me now. And it matters not because I spent months working on that robot, or because it was the first time I had experienced something like it, though these are perfectly valid reasons. It matters because even though now I live in a city with a population of 12 million, the corporation I work for employs 50,000 people, and I have more than 9 likes on my facebook profile picture, I'm still that kid.
 
 "This is a moment that you'll remember for a long, long time. Let's make the best out of it." is what I say to myself nowadays.
 
