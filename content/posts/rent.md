@@ -9,7 +9,9 @@ template: post
 tags: []
 comments_off: false
 ---
-There is a concept of "borrowed physique" that some bodybuilders talk about. It is usually after a "cycle" when a bodybuilder starts losing his muscle mass that he goes through a difficult phase; some even suffer through depression. Because it is inevitable that your body cannot sustain peak performance for a long time. Especially since you cannot affort to run that amount of gear all year. The smart ones know this and prepare for this in various ways, but no one will tell you that its easy, because it is a devastating experience to lose something that you have put so much effort to cultivate and are desperately trying to hold on.
+There is a concept of "borrowed physique" that some bodybuilders talk about. It is usually after a "cycle" when a bodybuilder starts losing his muscle mass that he goes through a difficult phase; some even suffer through depression. 
+
+Because it is inevitable that your body cannot sustain peak performance for a long time. Especially since you cannot afford to run that amount of gear all year. The smart ones know this and prepare for this in various ways, but no one will tell you that its easy, because it is a devastating experience to lose something that you have put so much effort to cultivate and are desperately trying to hold on.
 
 Veterans will advise you to let it go - to accept that fact that you never own your physique. You merely borrow it for a short period of time. And you have to pay your rent - the damage and stress your body goes through, the stuff you have to eat, the stuff you have to inject, the stuff you have to give up, the stuff you have to go through. No sane man would want to do it.
 
