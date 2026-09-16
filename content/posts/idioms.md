@@ -1,3 +1,19 @@
+---
+title: Python Idioms
+date: "2025-05-06T23:18:04.284Z"
+description: "Useful Python Idioms"
+thumbnail: "../thumbnails/list.png"
+slug: "python-idioms"
+categories:
+  - Highlight
+  - Python
+template: post
+tags:
+  - Python
+shortTitle: Python Idioms
+comments_off: false
+---
+
 # Python Idioms
 
 In this post, we're going to look at some of the most useful Python idioms that can make your code shorter, cleaner, and easier to understand.
