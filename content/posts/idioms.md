@@ -2,7 +2,7 @@
 title: Python Idioms
 date: "2025-05-06T23:18:04.284Z"
 description: "Useful Python Idioms"
-thumbnail: "../thumbnails/list.png"
+thumbnail: "../thumbnails/python.png"
 slug: "python-idioms"
 categories:
   - Highlight
