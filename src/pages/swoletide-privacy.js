@@ -22,7 +22,7 @@ export default function Privacy() {
 
         <div className="privacy-content">
           <p>
-            <em>Effective Date: [Insert Date]</em>
+            <em>Effective Date: 10/1/2026</em>
           </p>
 
           <p>
